@@ -24,7 +24,7 @@ data_sets = [
     # first address records hosted on git
     'https://raw.githubusercontent.com/IshMakwana/gwu_time_series_tp/main/pollution_record1.csv',
     # whole dataset hosted on google drive
-    'https://drive.google.com/uc?id=13wd-noV6gB7hZkc1t8B7Cox8etdLK5Xm&export=download']
+    'https://drive.google.com/u/2/uc?id=1_RqOW68TZu2gPQtbWa6TVThEsNRUzRiR&export=download']
 
 # df = pd.read_csv(data_sets[0], parse_dates=['Date'])
 pollution_df = pd.read_csv(data_sets[1], parse_dates=['Date'])
